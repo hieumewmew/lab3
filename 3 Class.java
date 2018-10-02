@@ -1,8 +1,8 @@
 
 public class Cat{
     String Height,Weight,Color;
-    Int Age;
-    puublic Cat(String Height,String Weight,String Color,Int Age){
+    int Age;
+    puublic Cat(String Height,String Weight,String Color,int Age){
         this.Height=Height;
         this.Weight=Weight;
         this.Color=Color;
@@ -35,8 +35,8 @@ public class Cat{
 }
 public class Cellphone{
     String Length,Width;
-    Int Ram,Rom,VersionAndroi;
-    public Cellphone( String Length,String Width,Int Ram,Int Rom,Int VersionAndroi;){
+    int Ram,Rom,VersionAndroi;
+    public Cellphone( String Length,String Width,int Ram,int Rom,int VersionAndroi;){
         this.Length=Length;
         this.Width=Width;
         this.Ram=Ram;
@@ -49,22 +49,22 @@ public class Cellphone{
     public void setLength(String Length){
         this.Length = Length;
     }
-    public Int getRam(){
+    public int getRam(){
         return Ram;
     }
-    public void setRam(Int Ram){
+    public void setRam(int Ram){
         this.Ram = Ram;
     }
-    public Int getRom(){
+    public int getRom(){
         return Rom;
     }
-    public void setRom(Int Rom){
+    public void setRom(int Rom){
         this.Rom = Rom;
     }
-    public Int getVersionAndroi(){
+    public int getVersionAndroi(){
         return VersionAndroi;
     }
-    public void setVersionAndroi(Int VersionAndroi){
+    public void setVersionAndroi(int VersionAndroi){
         this.VersionAndroi = VersionAndroi;
     }
     public String getWidth(){
@@ -75,19 +75,19 @@ public class Cellphone{
     }
 }
 class Bike{
-    Int Price;
+    int Price;
     String Brand;
-    public Bike(Int Price,String Brand){
+    public Bike(int Price,String Brand){
         this.Price=Price;
         this.Brand=Brand;
     }
-    public Int getPrice() {
+    public int getPrice() {
         return Price;
     }
     public String getBrand(){
         return Brand;   
     }
-    public void setGia(Int Price) {
+    public void setGia(int Price) {
         this.Price = Price;
     }
     public void setBrand(String Brand) {
